@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class PhoneBookService {
 
-	@Autowired
+	@Autowired //enable dependency injection
 	private PhoneBookRepository phone;
 	
 	//create a single contact
