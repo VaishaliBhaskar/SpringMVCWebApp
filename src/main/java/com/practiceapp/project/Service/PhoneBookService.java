@@ -46,7 +46,7 @@ public class PhoneBookService {
 		phone.deleteAll();
 	}
 	
-	//update a contact
+	//update a single contact
 	public Phonebook updateContact(Phonebook book) {
 		Phonebook Existing=phone.findById(book.getId()).orElse(null); 
 		Existing.setName(book.getName());
